@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  LiWuShuo0424
+//
+//  Created by student on 16/4/24.
+//  Copyright © 2016年 刘新银. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import"header.h"
+#import "UIImage+ImageFile.h"
+#import "UILabel+NavTitleView.h"
+#import "HttpManager.h"
+#import "UIView+Extension.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
