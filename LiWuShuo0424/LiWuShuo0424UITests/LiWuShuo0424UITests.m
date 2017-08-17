@@ -2,7 +2,7 @@
 //  LiWuShuo0424UITests.m
 //  LiWuShuo0424UITests
 //
-//  Created by student on 16/4/24.
+//  Created by Sznag on 16/4/24.
 //  Copyright © 2016年 刘新银. All rights reserved.
 //
 

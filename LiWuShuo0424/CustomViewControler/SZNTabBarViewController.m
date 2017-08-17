@@ -2,7 +2,7 @@
 //  SZNTabBarViewController.m
 //  LiWuShuo0424
 //
-//  Created by student on 16/4/24.
+//  Created by Sznag on 16/4/24.
 //  Copyright © 2016年 刘新银. All rights reserved.
 //
 
@@ -45,6 +45,7 @@
 - (void) setUpTabBarWithViewController:(UIViewController*) VC andTitle:(NSString*)title AndImage:(NSString*)imageName AndSelectImage:(NSString*)selectImageName {
     VC.tabBarItem.title=title;
     VC.tabBarItem.image=[UIImage imageNamed:imageName];
+    VC.tabBarItem.imageInsets = UIEdgeInsetsMake(0, 0, 5, 0);
     VC.tabBarItem.selectedImage=[UIImage imageNamed:selectImageName];
     SZNNavViewController *nav=[[SZNNavViewController alloc]initWithRootViewController:VC];
     [self addChildViewController:nav];
