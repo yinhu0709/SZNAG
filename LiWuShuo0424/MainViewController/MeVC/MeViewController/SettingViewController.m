@@ -2,7 +2,7 @@
 //  SettingViewController.m
 //  LiWuShuo0424
 //
-//  Created by student on 16/5/6.
+//  Created by Sznag on 16/5/6.
 //  Copyright © 2016年 刘新银. All rights reserved.
 //
 
